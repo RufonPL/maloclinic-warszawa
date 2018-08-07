@@ -1,0 +1,402 @@
+@media screen and (min-width: 1px) and (max-width: 767px) {
+
+	.owner_pic  {
+		width:100%;
+	}
+	.owner_details {
+		width: 100%;
+	}
+	.img_main {
+    	height: 150px;
+    	width:50%;
+	}
+img.aligncenter {
+    width: 100%;
+    height: auto;
+}
+img.aligncenter {
+	width:100%;
+	height: auto;
+}
+img.alignnone {
+    width: 100%;
+    height: auto;
+}
+	img.img_good {
+      	width: auto;
+	    height: 100%;
+	    top: 0;
+	    transform: translateX(-50%);
+	    left: 50%;
+	}
+	.block_bright {
+	    width: 50%;
+	    height: 285px;
+	}
+	.personel_details {
+	    height: 150px;
+	    padding: 11px;
+	    width:50%;
+	}
+		.img_second {
+			width:50%;
+			height: 285px;
+		}
+		.block_dark {
+			width: 50%;
+			height: 285px;
+		}
+	.block_dark {
+		padding:10px;
+
+	}
+	div#classs1 {
+    width: 100% !important;
+}
+div#classs1>.modal-content>.modal-body {
+    padding: 0px 8px 15px 0px;
+    float: left;
+}
+.photo-men>img {
+    width: 100%;
+}
+.modal-header .close {
+    margin-top: -12px;
+    margin-right: -2px;
+}
+.owner_title {
+	height: 160px;
+}
+.owner_details_p {
+    padding: 10px;
+}
+	button.btn.btn-info.btn-lg.modal_button {
+		bottom:15px !important;
+	}
+	h2.header_dark {
+    font-size: 16px;
+}
+	h2.title_doctor {
+	    font-size: 15px;
+	    margin-top: 5px;
+	}
+	p.profession {
+	    min-height: 50px;
+	    font-size: 12px;
+	}
+
+	button.btn.btn-info.btn-lg.modal_button {
+	    bottom: 17px;
+	    height: 10px;
+	}	
+	.block_half {
+	    width: 100%;
+	}
+img.img_sec {
+    width: auto;
+    height: 100%;
+    top: 0;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.logo > a > img {
+    width: 100%;
+}
+
+.owner_header_second {
+	font-size: 22px;
+}
+
+input#searchsubmit {
+    margin-left: 0px !important;
+}
+		.slider-glowny {
+		margin-top: -68px;
+	}
+		ul.nav.navbar-nav.navbar-right>li>a {
+	    padding: 20px 34px 21px 30px;
+	}
+		form#searchform {
+	    margin-top: -60px;
+			width: 100%;
+	}
+	input.wpcf7-form-control.wpcf7-text {
+    width: 100%;
+	}
+		input#s {
+		border: 1px solid #fff;
+	    padding: 5px;
+	    margin-bottom: 20px;
+	    margin-top: 20px;
+	    margin-right: 10px;
+	    float: left;
+	    width: 65%;
+	}
+		.icon-footer>img {
+	    width: 75px;
+	    margin-bottom: 10px;
+	}
+		.mini-slider {
+	    float: left;
+	    width: 100%;
+	    height: 470px;
+	}
+		div#sliderpage1 {
+	    height: 451px;
+	}
+		ol#indicatorpage1 {
+	    top: 99%;
+	}
+		input#searchsubmit {
+	    border: none;
+	    color: #fff;
+	    background: transparent;
+	    font-size: 0px;
+	    background-image: url(https://maloclinic.pl/wp-content/themes/malo-clinic/img/search.svg);
+	    background-position: initial;
+	    background-size: cover;
+	    float: left;
+	    width: 1%;
+	    margin: 25px;
+	}
+	.modal-dialog {
+    width: 95% !important;
+	}
+	p.pol-form {
+    height: 57px;
+        padding-top: 10px;
+	}
+	input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    width: 100%;
+	}
+	textarea.wpcf7-form-control.wpcf7-textarea {
+    width: 100%;
+	}
+	input.wpcf7-form-control.wpcf7-submit {
+		left:15%;
+		margin-left:0px;
+	}
+  div#button-sidebar  {
+    float: none;
+  }
+
+  #wp-live-chat .wp-live-chat-wraper,#searchform{
+    display: none;
+  }
+  a[href="https://web.facebook.com/maloclinicwarsaw/"]{
+    top: 90% !important;
+    background-size: 40px !important;
+    background-repeat: no-repeat !important;
+    margin-right: -300px !important;
+  }
+
+  .boxs3 .icona-box-1 img{
+    width: 55px;
+    top: 117px;
+    padding: 16px;
+  }
+  div#button2{
+    bottom: -66px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.owner_pic  {
+		width:100%;
+	}
+	div#button-sidebar  {
+	float: none;
+}
+	.owner_details {
+		width: 100%;
+	}
+	.img_main {
+    	height: 300px;
+    	width: 50%;
+	}
+	img.aligncenter {
+		width:100%;
+		height: auto;
+	}
+img.aligncenter {
+    width: 100%;
+    height: auto;
+}
+img.alignnone {
+    width: 100%;
+    height: auto;
+}
+	img.img_good {
+    width: auto;
+    height: 100%;
+    top: 0;
+    transform: translateX(-50%);
+    left: 50%;
+	}
+	.personel_details {
+	    height: 300px;
+    width: 50%;
+    padding: 11px;
+	}
+		
+	.block_dark {
+		padding:20px;
+
+	}
+	div#classs1 {
+    width: 100% !important;
+}
+div#classs1>.modal-content>.modal-body {
+    padding: 0px 8px 15px 0px;
+    float: left;
+}
+.photo-men>img {
+    width: 100%;
+}
+.modal-header .close {
+    margin-top: -12px;
+    margin-right: -2px;
+}
+.owner_title {
+	height: 160px;
+}
+.owner_details_p {
+    padding: 10px;
+}
+	button.btn.btn-info.btn-lg.modal_button {
+		bottom:15px !important;
+	}
+	h2.header_dark {
+    font-size: 18px;
+}
+	h2.title_doctor {
+	    font-size: 30px;
+    margin-top: 15px;
+	}
+	p.profession {
+	   min-height: 50px;
+    	font-size: 25px;
+	}
+
+	button.btn.btn-info.btn-lg.modal_button {
+	    bottom: 17px;
+	    height: 10px;
+	}	
+	.block_half {
+	    width: 100%;
+	}
+	img.img_sec {
+	width: auto;
+    max-height: 100%;
+    top: 0;
+    transform: translateX(-50%);
+    left: 50%;
+	}
+.logo > a > img {
+    width: 100%;
+}
+
+.owner_header_second {
+	font-size: 22px;
+}
+		ul.nav.navbar-nav.navbar-right>li>a {
+		padding: 20px 10px 20px 1px;
+		font-size: 11px;
+	}
+	form#searchform {
+		margin-top:0px;
+	}
+
+
+	p.pol-form {
+    height: 57px;
+    padding-top: 10px;
+	}
+		li#nav-menu-item-19>a {
+	    font-size: 0px;
+	}
+	input#s {
+		border:1px solid #fff;
+		width:300px;
+	}
+	.modal-dialog {
+    width: 95% !important;
+	}
+	input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    width: 100%;
+	}
+	input.wpcf7-form-control.wpcf7-submit {
+		left:15%;
+		margin-left:0px;
+	}
+	textarea.wpcf7-form-control.wpcf7-textarea {
+    width: 100%;
+	}
+
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+	.block_half {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+body > div.owner > div:nth-child(19) > div.img_second > img {
+    height: 100% !important;
+    width: auto;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 0;
+}
+body > div.owner > div:nth-child(24) > div.img_second > img, body > div.owner > div:nth-child(27) > div.img_second > img {
+    height: 100%;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+img.img_good {
+   height: 100%;
+    position: relative;
+    left: 50%;
+    width: auto;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+img.img_sec {
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+}
+@media screen and (max-width: 1199px) {
+
+		.col-xs-12.col-sm-12.col-mg-4.col-lg-4 {
+	    margin-bottom: 10%;
+	}
+
+		.slider-glowny {
+	    float: left;
+	    width: 100%;
+	    height: 100%;
+	    margin-top: -79px;
+	}
+
+	input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    width: 100%;
+	}
+	.modal-dialog {
+    width: 95% !important;
+	}
+	textarea.wpcf7-form-control.wpcf7-textarea {
+    width: 100%;
+	}
+}
+	.navbar-default.navbar-collapse {
+	    border: none !important;
+	}
+	div#bs-example-navbar-collapse-1{
+		border: none !important;	
+	}
