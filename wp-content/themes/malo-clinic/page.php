@@ -90,11 +90,13 @@ get_header(); ?>
 
 </div>
 
+<?php $pll = (pll_current_language() === 'pl') ? '' : '_en'; ?>
+
 <div class="info-boxs">
   <div class="container">
     <div class="row">
-          <?php $cn = 0; if( have_rows('infoboxs' , 'option') ):
-            while ( have_rows('infoboxs' , 'option') ) : the_row(); $cn++;?>
+          <?php $cn = 0; if( have_rows('infoboxs' . $pll, 'option') ):
+            while ( have_rows('infoboxs' . $pll, 'option') ) : the_row(); $cn++;?>
               <div class="col-xs-12 col-sm-6 col-mg-3 col-lg-3 infoboxss">
                 <h2 class="infoheading"><?php the_sub_field('infoheading' , 'option'); ?> </h2>
                 <h2 class="infoheading2"><?php the_sub_field('infoheading-1' , 'option'); ?> </h2>

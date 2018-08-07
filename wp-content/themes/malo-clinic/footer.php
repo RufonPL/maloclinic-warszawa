@@ -1,18 +1,20 @@
-<?php wp_footer(); ?>
+<?php  $pll = (pll_current_language() === 'pl') ? '' : '_en';
+
+wp_footer(); ?>
 <div class="bottom-footer">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-            <div class="logo-footer"><img src="<?php the_field('logo-footer', 'option'); ?>"> </div>
+            <div class="logo-footer"><img src="<?php the_field('logo-footer' . $pll, 'option'); ?>"> </div>
       </div>
         <?php
-            if( have_rows('footer', 'option') ):
-              while ( have_rows('footer', 'option') ) : the_row(); ?>
+            if( have_rows('footer' . $pll, 'option') ):
+              while ( have_rows('footer' . $pll, 'option') ) : the_row(); ?>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 columns">
-                    <div class="icon-footer"> <img src="<?php the_sub_field('columns-icon', 'option'); ?>"> </div>
+                    <div class="icon-footer"> <img src="<?php the_sub_field('columns-icon' . $pll, 'option'); ?>"> </div>
                     <div class="footer-tekst">
-                      <h2> <?php the_sub_field('columns-name', 'option'); ?> </h2>
-                      <p> <?php the_sub_field('columns-text', 'option'); ?></p>
+                      <h2> <?php the_sub_field('columns-name' . $pll, 'option'); ?> </h2>
+                      <p> <?php the_sub_field('columns-text' . $pll, 'option'); ?></p>
                     </div>
                   </div>
                 <?php endwhile;

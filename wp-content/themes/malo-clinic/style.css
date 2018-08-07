@@ -1594,7 +1594,7 @@ img.img_sec {
 }
 body > div.top-bar-2 > div > div > div:nth-child(2) > div:nth-child(2) { margin-top: -22px; }
 .top-bar {
-    display: none;
+    /*display: none;*/
 }
 #plWebFrikContent > iframe {
     display: none;
