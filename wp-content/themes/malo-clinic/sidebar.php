@@ -70,7 +70,7 @@
 		<h3> Send us a message </h3>
 	</div>
 	<div class="form-sidebar">
-	<?php echo do_shortcode('[contact-form-7 id="131" title="Sidebar - form"]'); ?>
+	<?php echo do_shortcode('[contact-form-7 id="1075" title="Sidebar - form_copy EN"]'); ?>
 	</div>
 
 	<div class="citation">
